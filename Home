@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Painting Company</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<h1>Sign Painting Company</h1>
+		<nav>
+			<ul>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#gallery">Gallery</a></li>
+				<li><a href="#contact">Contact Us</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<main>
+		<section id="hero">
+			<h2>Custom Sign Painting Services</h2>
+			<p>We provide top-notch sign painting services for businesses and individuals.</p>
+			<a href="#contact" class="button">Get a Quote</a>
+		</section>
+
+		<section id="services">
+			<h2>Our Services</h2>
+			<div class="service">
+				<h3>Hand-Painted Signs</h3>
+				<p>We specialize in creating unique hand-painted signs that will make your business stand out.</p>
+			</div>
+			<div class="service">
+				<h3>Sign Restoration</h3>
+				<p>We can restore old and worn out signs to their former glory.</p>
+			</div>
+			<div class="service">
+				<h3>Custom Design</h3>
+				<p>We can work with you to create a custom sign design that reflects your brand and message.</p>
+			</div>
+		</section>
+
+		<section id="gallery">
+			<h2>Gallery</h2>
+			<div class="gallery-item">
+				<img src="img/gallery-1.jpg" alt="Hand-painted sign">
+			</div>
+			<div class="gallery-item">
+				<img src="img/gallery-2.jpg" alt="Restored sign">
+			</div>
+			<div class="gallery-item">
+				<img src="img/gallery-3.jpg" alt="Custom sign design">
+			</div>
+		</section>
+
+		<section id="contact">
+			<h2>Contact Us</h2>
+			<form>
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">Email</label>
+				<input type="email" id="email" name="email" required>
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Sign Painting Company. All rights reserved.</p>
+	</footer>
+</body>
+</html>
